@@ -1,88 +1,69 @@
-
-#menu1{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
+body{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
 }
 
-a{
-    color: black;
-    font-size: 20px;
+li{
+    display: inline-block;
     text-transform: uppercase;
-    border: 3px solid black;
-    border-radius: 10px;
-    width: 300px;
-    padding: 5px;
-    
-}
-
-a:hover{
-    color: white;
-    font-size: 25px;
-    background-color: #59bdff;
-    border-color: #ff8b1f;
-    
-}
-
-#art1{
-    width: 350px;
-    text-align: center;
-    padding: 10px;
-    border: 1px #e6e6e6 solid;
-    margin-left: 80px;
+    margin-bottom: 50px;
     margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    font-family: "Times new roman";
+    font-size: 25px;
+}
+a:hover{
+    color: #03d3fc;
+    transition: all 0.6s ease;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.life{
+        font-size: 13px;
+        color: grey;
+        text-transform: uppercase;
+        margin-left: 15px;
+        text-align: left;
+}
+
+h3{
+    font-size: 25px;
+    font-family: "Playfair Display";
+    margin-bottom: 20px;
+}
+
+article{
+    width: 470px;
+    margin: 0 auto;
+    display: inline-block;
     margin-right: 30px;
-    display: inline-block;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
-#art1:hover{
-    box-shadow: 0px 0px 20px 1px;
-}
-
-#art2{
-    width: 350px;
+.button{
+    background: none;
+    border: 1px black solid;
+    border-radius: 4px;
     text-align: center;
-    margin: 30px 30px;
-    padding: 10px;
-    border: 1px #e6e6e6 solid;
-    display: inline-block;
-    
-}
-
-#art2:hover{
-    box-shadow: 0px 0px 20px 1px;
-}
-
-#art3{
-    width: 350px;
-    text-align: center;
-    margin: 30px 30px;
-    padding: 10px;
-    border: 1px #e6e6e6 solid;
-    display: inline-block;
-    
-}
-
-#art3:hover{
-    box-shadow: 0px 0px 20px 1px;
-}
-
-#art4{
-    width:890px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
-#art4:hover{
-    box-shadow: 0px 0px 20px 1px;
-}
-
-div{
-    width: 350px;
-    display: inline-block;
-    padding: 10px;
-    margin: 35px;
+.button:hover{
+    transition: all 0.5s ease;
+    border-color: black;
+    background-color: black;
+    color: #03d3fc;
 }
