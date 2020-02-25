@@ -59,6 +59,7 @@ article{
     height: 40px;
     margin: auto;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .button:hover{

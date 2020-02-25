@@ -1,0 +1,157 @@
+.divmenu{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+div:first-letter{    
+    color: #1abc9c;
+    font-size: 38px;
+}
+.alogo{
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.alogo:hover{
+    color: #1abc9c;
+}
+
+.ulmenu{
+    max-width: 900px;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+.limenu{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li.limenu a{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+}
+
+li.limenu a:hover{
+    color:#1abc9c;
+}
+
+.h2style{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2::after{
+    content: "";
+    margin: 34px auto;
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+}
+a{
+    text-decoration: none;
+}
+
+h3{
+    margin: 0;
+    height: 40px;
+    line-height: 2.1;
+    text-transform: uppercase;
+    font-family: 'Roboto', ;
+}
+
+.liprod{
+    display: inline-block;
+    margin: 35px 20px 0 0;
+    width: 255px; 
+    height: 325px; 
+    font-size: 0px;
+    text-align: center;
+}
+
+.divinfo{
+    color: white; 
+    font-size: 16px;
+    background-color: black;
+    height: 40px;
+}
+
+.spanprice{
+    display: block; 
+    width: 40px;
+    height: 40px;
+    float: right;
+    color: white;
+    background-color: gray;
+    font-size: 16px;
+    margin: auto;
+    line-height: 2.2;
+
+}
+
+li:hover .divinfo{
+    background: #1abc9c;
+}
+li:hover .spanprice{
+    background: #7fd9c7;
+}
+
+section{
+    margin-bottom: 200px;
+}
+
+.divnews{
+    width: 340px;
+    height: 500px;
+    font-size: 14px;
+    margin: auto;
+    display: inline-block;
+    margin-right: 25px;
+
+}
+.h4news{
+    font-size: 18px;
+    margin-bottom: 47px;
+    width: 300px;
+}
+
+.h4news::after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    float: left;
+    margin: 20px 0 0 0;  
+}
+img{
+    width: 100%;
+}
+
+.buttonnews{
+    width: 160px;
+    height: 50px;
+    border: solid #4ec6ab 1px;
+    border-radius: 5px;
+    background-color: #4ec6ab;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;  
+}
+
+.buttonnews:hover{
+    background-color: #1ec9a4;
+    font-size: 15px;
+    transition: 0.6s;
+    border: #85bdb1;
+    margin: 0px;
+}
