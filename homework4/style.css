@@ -235,19 +235,19 @@ content: "";
 }
 
 .smallbtn1{
-    background-image: url(img/btn1.png);
+    background-image: url(./img/btn1.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .smallbtn2{
-    background-image: url(img/btn2.png);
+    background-image: url(./img/btn2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .smallbtn3{
-    background-image: url(img/btn3.png);
+    background-image: url(./img/btn3.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -260,7 +260,7 @@ content: "";
     text-transform: uppercase;
     font-weight: 800;
     line-height: 2;
-    background-image: url(img/btn5.png);
+    background-image: url(./img/btn5.png);
     background-repeat: no-repeat;
     background-position: 15px;
     text-align: right;
