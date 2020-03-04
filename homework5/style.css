@@ -15,10 +15,11 @@
     min-height: 50px;
 }
 
-.nav-content, .menu, .list-product, .models-main, .mainfoot{
+.nav-content, .menu, .list-product, .models-main, .mainfoot, .footdesr{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 ul{
@@ -28,8 +29,7 @@ ul{
 .nav-content{
     align-items: center;
     margin: 30px auto 100px;
-    max-width: 1800px;
-    
+    max-width: 1800px; 
 }
 
 .logo{
@@ -277,9 +277,6 @@ ul{
     justify-content: space-between;
     align-items:center;
 }
-.footdesr{
-    display: flex;
-}
 
 .mainfoot a{
     color: orange;
@@ -301,12 +298,10 @@ ul{
     width: 230px;
     height: 38px;
     border: 1px rgb(185, 185, 185) solid;
-    float: left;
     text-align: left;
     padding-left: 14px;
     font-size: 16px;
     font-family: 'Montserrat', bold;
-
 }
 
 /* Footer hover*/
