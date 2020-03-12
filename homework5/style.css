@@ -311,3 +311,10 @@ ul{
     background-color: white;
     color: #95e1d3;
 }
+
+.li-content a:after{
+content: "";
+width: 100px;
+height: 100px;
+background-color: grey;
+}

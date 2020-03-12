@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header style */
+  
+
+.header-style{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.logo{
+    color: #fed136;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Web font";
+}
+
+.logo::first-letter{
+    content: "";
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li:not(:last-child){
+    margin-right: 10px;
+}
+
+.style{
+    color: black;
+    font-size: 18px;
+}
+
+.style:hover{
+    color: #fed136;
+}
+
+
+/* main style */
+
+
+.prod-sect{
+    text-align: center;
+    margin: 0 auto 125px;
+}
+
+.section-txt{
+    font-size: 40px;
+}
+
+.section-txt::after{
+    text-transform: none;
+    display: block;
+    content: "Lorem ipsum dolor sit amet.";
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 80px;
+    font-family: "Web font";
+}
+
+.listyle{
+    width: 280px;
+}
+
+.listyle>h3::after{
+    margin-top: 15px;
+    display: block;
+    font-size: 12px;
+    color: rgba(73, 73, 73, 0.932);
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, accusamus! Deleniti dicta obcaecati enim velit cum mollitia minus.";
+}
+
+.img1::before, .img2::before, .img3::before{
+    display: block;
+    margin-bottom: 15px;
+}
+.img1::before{
+    content: url(./img/cart.png);
+}
+.img2::before{
+    content: url(./img/web.png);
+}
+.img3::before{
+    content: url(./img/security.png);
+}
+
+
+.product-descr>p{
+    font-size: 12px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.product-descr{
+    width: 280px;
+}
+
+
+
+/* footer contact form */
+
+.contact-form{
+    text-align: center;
+}
+
+.h2txt{
+    text-transform: uppercase;
+    color: white;
+    font-size: 45px;
+}
+
+.formtbl{
+    margin: 0 auto;
+    text-align: center;
+}
+.h2txt::after{
+    display: block;
+    content: "Lorem ipsum dolor sit amet.";
+    color: gray;
+    font-style: italic;
+    font-size: 18px;
+    margin: 15px 0 30px 0;
+    font-family: "Web font";
+}
+
+#name1,#email1,#subject1,#message1{ 
+    display: flex;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+#message1{
+    resize:none;
+    width: 459px;
+    height: 186px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#name1,#email1,#subject1{
+    width: 459px;
+    height: 54px;
+}
+
+.sndr{
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    width: 240px;
+    height: 66px;
+    margin-top: 20px;
+}
+
+.sndr:active{
+    background-color: black;
+    color: white;
+}
+
+.footer-design{
+    padding: 100px 0;
+    width: 100%;
+    background-color: #222222;
+    background-image: url(./img/world.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+input:invalid{
+    box-shadow: 0 0 0pt 2px red;
+}
+
+
+@font-face {
+    font-family: 'Web font';
+    src: url(./DroidSerif-Italic.woff) format('woff');
+    font-style: italic;
+}
