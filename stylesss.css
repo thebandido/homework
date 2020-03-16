@@ -1,0 +1,138 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', bold;
+}
+
+.background{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 0 black);
+    height: 540px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.headmenu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+.logo{
+    color: white;
+    font-weight: 600;
+    font-size: 1.6em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.linkbtn{
+    width: 94px;
+    height: 40px;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    box-sizing:border-box;
+}
+
+.linkbtn:hover{
+    border: solid 2px white;
+    border-radius: 40px;
+}
+
+.header-description{
+    font-size: 2.0em;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 0 2em 0;
+}
+
+.header-description::after{
+    display: block;
+    content: "And find the perfect partner to fullfill it";
+    color: white;
+    font-family: 'Roboto';
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 0.5em;
+
+}
+
+.header-button{
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 13px;
+}
+
+.section-description{
+    margin-bottom: 30px;
+}
+
+.list{
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* PERSONAL INFO */
+.media{
+    margin: 10px auto;
+    position: relative;
+    width: 100px;
+}
+.person-description{
+    margin: 10px 0;
+}
+
+.personid{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.pict{
+    position: absolute;
+    content: "";
+    color: teal;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: tomato;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 0;
+    right: 0;
+}
+
+.pict1{
+    background-image: url(./img/cup.png);
+}
+.pict2{
+    background-image: url(./img/tv.png);
+}
+.pict3{
+    background-image: url(./img/lab.png);
+}
+.pict4{
+    background-image: url(./img/telegram.png);
+}

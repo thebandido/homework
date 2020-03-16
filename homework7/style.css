@@ -1,0 +1,134 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 0 black);
+    height: 540px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.headmenu{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    color: white;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+.linkbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 40px;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+
+.linkbtn:hover{
+    border: solid 2px white;
+    border-radius: 40px;
+}
+
+.linkbtn>a{
+    color: white;
+    font-weight: 600;
+}
+
+.header-description{
+    font-size: 2.0em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-description::after{
+    display: block;
+    content: "And find the perfect partner to fullfill it";
+    color: white;
+    font-family: 'Roboto';
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 0.5em;
+
+}
+
+.header-button{
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 13px;
+}
+
+.section-description{
+    margin-bottom: 30px;
+}
+
+.list{
+    margin: 0 auto 3em auto;
+    padding: 0 0.8em;
+    max-width: 1000px
+}
+
+/* PERSONAL INFO */
+.media{
+    margin: 0 auto;
+    position: relative;
+    width: 100px;
+}
+.person-description{
+    margin: 0.8em 0;
+}
+
+.personid{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.pict{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 0;
+    right: 0;
+}
+
+.pict1{
+    background-color: tomato;
+    background-image: url(./img/cup.png);
+}
+.pict2{
+    background-color: green;
+    background-image: url(./img/tv.png);
+}
+.pict3{
+    background-color: orange;
+    background-image: url(./img/lab.png);
+}
+.pict4{
+    background-color: blue;
+    background-image: url(./img/telegram.png);
+}
