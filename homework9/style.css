@@ -67,6 +67,10 @@ background-size: cover;
     font-weight: 400;
 }
 
+.navigation--item__img{
+    cursor: pointer;
+}
+
 .navigation--item__img:hover .navigation--img{
     fill: #fce38a;  
 }
@@ -128,9 +132,10 @@ background-size: cover;
     display: block;
     max-width: 200px;
     margin: 0 auto;  
+    cursor: pointer;
 }
 
-.section--btn:hover,.section--btn:focus, .section--btn:active{
+.section--btn:hover, .section--btn:focus, .section--btn:active{
     color: black;
     border: black solid 2px;
 }
