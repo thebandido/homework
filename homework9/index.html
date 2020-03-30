@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:200i,300,400,700,800|Roboto:300,300i,400,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
    <header class="background page-header page-header__decor">
@@ -28,14 +29,20 @@
                    <a class="navigation--link" href="#">contact</a> 
                 </li>
                <li class="navigation--item__img">
+                   <a href="#">
                     <svg class="navigation--img">
                         <use href="img/main_sprite.svg#cart">
                     </svg>
+                   </a>
+                    
                 </li>
                <li class="navigation--item__img">
+                   <a href="">
                     <svg class="navigation--img">
                         <use href="img/main_sprite.svg#glass">
-                    </svg>                
+                    </svg>    
+                   </a>
+                                
                 </li>
             </ul>
         </nav>
@@ -206,7 +213,7 @@
    <footer class="site-footer">
        <p class="site-footer--text">2016 MoGo free PSD template by <a class="site-footer--link" href="#">Laaqiq</a></p>
        <form class="site-footer--form" action="#" value="email" name="subscrube_email" method="submit">
-           <input type="text" placeholder="Your email">
+           <input class="site_footer--input" type="text" placeholder="Your email">
            <button class="site-footer--btn">
                subscribe
            </button>
