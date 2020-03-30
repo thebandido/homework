@@ -67,6 +67,10 @@ background-size: cover;
     font-weight: 400;
 }
 
+.navigation--item__img:hover .navigation--img{
+    fill: #fce38a;  
+}
+
 .navigation--item:hover .navigation--link{
     border-bottom: #fce38a solid 2px;
     color: #fce38a;
@@ -81,9 +85,6 @@ background-size: cover;
     fill: #ffffff;
 }
 
-.navigation--img:hover{
-    fill: #fce38a;
-}
 
 
 .section__decoration{
@@ -129,7 +130,7 @@ background-size: cover;
     margin: 0 auto;  
 }
 
-.section--btn:hover{
+.section--btn:hover,.section--btn:focus, .section--btn:active{
     color: black;
     border: black solid 2px;
 }
@@ -269,6 +270,13 @@ background-size: cover;
     .section--main-text{
         
     }
+}
+
+@media (min-width: 1520px) and (max-width: 1800px){
+    .section-list__decoration{
+        max-width: 160px;
+    }
+
 }
 
 @media (min-width: 1520px) and (max-width: 1800px){
