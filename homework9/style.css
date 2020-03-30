@@ -108,6 +108,7 @@ background-size: cover;
 }
 
 .navigation--img{
+    display: block;
     width: 20px;
     height: 17px;
     cursor: pointer;
