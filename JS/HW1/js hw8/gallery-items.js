@@ -94,6 +94,7 @@ function openBigImg(el) {
     modalImg.src = el.target.dataset.source;
     closeBtn.addEventListener(`click`, closeModal);
   }
+  
 }
 
 function closeModal(el) {
