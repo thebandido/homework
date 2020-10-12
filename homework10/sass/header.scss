@@ -1,0 +1,29 @@
+.page-header{
+    background-image: -webkit-gradient( linear, left top, right top, from(rgba(252,227,138,0.6)), to(rgba(243,129,129,0.6))), url(img/background.png);
+    background-image: -o-linear-gradient( left, rgba(252,227,138,0.6) 0%, rgba(243,129,129,0.6) 100%), url(img/background.png);
+    background-image: linear-gradient( 90deg, rgba(252,227,138,0.6) 0%, rgba(243,129,129,0.6) 100%), url(img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18px;
+    }
+    
+    .page-header__decor{
+        position: relative;
+        height: 540px;
+        margin-bottom: 20px;
+    }
+    
+    .site--logo{
+        text-transform: uppercase;
+        font-size: 30px;
+        color: $headercolor;
+        font-weight: 600;
+
+        &:hover{
+            color: $secondcolor;
+        }
+    }
+
+    
+    

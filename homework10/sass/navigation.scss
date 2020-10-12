@@ -1,0 +1,41 @@
+.page-nav{
+    @include flexwrap;
+    @include sparnd;
+    text-transform: uppercase;
+}
+
+.navigation{
+    @include flexwrap;
+    align-content: center;
+    @include spbtwn;
+
+    :not(:last-child){
+        margin-right: 10px;
+    }
+}
+
+.navigation--link{
+    color: $headercolor;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navigation--item__img{
+    display: flex;
+    align-items: center;
+
+    &:hover .navigation--img{
+        fill: $secondcolor;  
+    }  
+}
+
+.navigation--item:hover .navigation--link{
+    color: $secondcolor;
+}
+
+.navigation--img{
+    display: block;
+    width:  18px;
+    height: 17px;
+    fill: $headercolor;
+}

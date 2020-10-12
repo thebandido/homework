@@ -1,0 +1,29 @@
+$maincolor: #95e1d3;
+$secondcolor: #fce38a;
+$thirdcolor: #f38181;
+$headercolor: #ffffff;
+
+$sectiontxt: 'Roboto', sans-serif;
+$sectiondscr:'Kaushan Script', cursive;
+$sectiontxt2: 'Montserrat', sans-serif;
+
+@mixin flexwrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@mixin spbtwn {
+    -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+@mixin sparnd {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    
+}

@@ -1,0 +1,166 @@
+.section__decoration{
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+.section--dscr{
+    font-family: $sectiondscr; 
+    display: flex;
+    justify-content: center; 
+}
+
+.section--dscr__decoration{
+    font-size: 2em;
+    color: $headercolor;
+}
+
+.section--text{
+    font-family: $sectiontxt;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;   
+    text-align: center;
+}
+
+.section--text__decoration{
+    margin: 0 auto;
+    color: $headercolor;
+    font-size: 5em;
+    font-weight: 600;
+    max-width: 380px;
+    line-height: 1;
+    margin-bottom: 1em;
+
+}
+
+.section--btn{
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;  
+
+    &:hover, .section--btn:focus, .section--btn:active{
+        color: black;
+        border: black solid 2px;
+    }
+}
+
+
+
+.section--btn__decoration{
+    color: $headercolor;
+    border: 2px solid $headercolor;
+}
+
+.section-list{
+    @include flexwrap;
+    @include sparnd;
+}
+
+.section-list__decoration{
+    max-width: 500px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+
+.section-list--icon{
+    top: 0;
+    left: 20px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    fill: $maincolor;
+}
+
+.section-list--head{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.section-list--text{
+    color: gray;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.section--main-text{
+    color: gray;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.section-list--item{
+    position: relative;
+
+    &:hover .section-list--hover{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.section-list--head__decoration{
+    margin: 10px 0;
+}
+
+
+.section-list--hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 400px;
+    content: "";
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(252,227,138)), to(rgba(243,129,129,0.8)));
+    background-image: -o-linear-gradient( left, rgb(252,227,138) 0%, rgba(243,129,129,0.8) 100%);
+    background-image: linear-gradient( 90deg, rgb(252,227,138) 0%, rgba(243,129,129,0.8) 100%);
+    -webkit-box-shadow: 5px 5px $maincolor;
+            box-shadow: 5px 5px $maincolor;
+
+}
+
+.section-list--btn{
+    padding-top: 4px;
+    width: 40px;
+    height: 35px;
+    background-color: $secondcolor;
+
+    &:hover .section-list--btn_decoration{
+        fill: $headercolor;
+    }
+    &:hover{
+        background-color: $thirdcolor;
+    }
+}
+
+.section-list--btn_decoration{
+    width: 25px;
+    height: 25px;
+    fill: $thirdcolor;
+}
+
+.section--text__after::after{
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 20px;
+    border-bottom: red 2px solid;
+}
